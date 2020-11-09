@@ -21,5 +21,9 @@ On selecting less than 2 candidates:
 
 <img src="https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(61).png">
 
+If any selected participant has an interview already scheduled during the new time:
+
+<img src="https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(62).png">
+
 These are the screenshots along with the functionalities that are shown in them.
 
