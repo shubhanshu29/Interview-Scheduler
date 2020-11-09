@@ -12,8 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('front');
+    return redirect('/interviews');
 });
 Route::get('/interviews', 'InterviewsController@index');
 Route::get('/interviews/view', 'InterviewsController@view');
 Route::post('/interviews','InterviewsController@store');
+Route::get('interviews/view/{id}','InterviewsController@show');
+Route::put('interviews/view/{id}', 'InterviewsController@update');

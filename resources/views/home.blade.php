@@ -36,7 +36,10 @@
                                 {{$user}}
                             @endif
                         @endforeach
-                    </p><br><br>
+                        <br>
+                        <a href="/interviews/view/{{$interview->id}}">
+                        {{Form::button('Edit', ['class'=>'btn btn-primary'])}}
+                    </a></p><br><br>
                 @endforeach
                 </div>
             </div>
