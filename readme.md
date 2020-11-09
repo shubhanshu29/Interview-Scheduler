@@ -8,6 +8,7 @@ This is the project created as an assignment for the interview round of the Inte
 2. An interviews list page where admin can see all the upcoming interviews.\
 3. An interview edit page where admin can edit the created interview with same validations as on creation page.\
 
+The tools that I have used in order to create this projects are Laravel and MySQL.\
 An interview creation page where the admin can create an interview by selecting participants, start time and end time.\
 
 <img src= "https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(59).png">
