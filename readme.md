@@ -25,5 +25,8 @@ If any selected participant has an interview already scheduled during the new ti
 
 <img src="https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(62).png">
 
+The update screen of any of the meetings:
+<img src="https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(64).png">
+
 These are the screenshots along with the functionalities that are shown in them.
 
