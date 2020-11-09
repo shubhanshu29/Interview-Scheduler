@@ -8,5 +8,17 @@ This is the project created as an assignment for the interview round of the Inte
 2. An interviews list page where admin can see all the upcoming interviews.\
 3. An interview edit page where admin can edit the created interview with same validations as on creation page.\
 
-An interview creation page where the admin can create an interview by selecting participants, start time and end time.
+An interview creation page where the admin can create an interview by selecting participants, start time and end time./
+
+<img src= "https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(59).png">
+
+List of all the interviews:/
+
+<img src= "https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(60).png">
+
+On selecting less than 2 candidates:
+
+<img src=" https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(61).png">
+
+These are the screenshots along with the functionalities that are shown in them.
 
