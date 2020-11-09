@@ -13,11 +13,11 @@ An interview creation page where the admin can create an interview by selecting 
 
 <img src= "https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(59).png">
 
-List of all the interviews:\
+List of all the interviews:
 
 <img src= "https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(60).png">
 
-On selecting less than 2 candidates:\
+On selecting less than 2 candidates:
 
 <img src="https://github.com/shubhanshu29/Interview-Scheduler/blob/master/Screenshots/Screenshot%20(61).png">
 
