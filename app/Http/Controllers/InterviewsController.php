@@ -81,7 +81,15 @@ class InterviewsController extends Controller
         foreach($users as $user){
             $column=$user->id;
             $participant->$column= $request->input($column);
-            $sum+=$request->input($column);         
+            $sum+=$request->input($column);
+            if($request->input($user->id)==1){
+                $probs = DB::select('select id from participants where (start_at between :start_at and :end_at or end_at between :start_at1 and :end_at1) and :column=1',['start_at'=>$request->input('start_at'),'end_at'=>$request->input('end_at'),'start_at1'=>$request->input('start_at'),'end_at1'=>$request->input('end_at'),'column'=>$column]);
+                $message = "Some participants are having a clash in the given time";
+                if($probs){
+                    return view('error')->with('message', $message);
+                }
+                
+            }
         }
         if($sum<2){
             $message= "You have to select two or more candidates to schedule an interview.";
